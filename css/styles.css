@@ -63,8 +63,7 @@ p {
 .nav-page {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
 }
 
 .logo {
@@ -97,6 +96,8 @@ p {
 
 .nav-menu {
   color: var(--navy-blue);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .site-nav .link:hover,
