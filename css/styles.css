@@ -8,8 +8,8 @@
   --white: #ffffff;
 }
 html {
-  font-family: system-ui, 'Segoe UI', Roboto, Helvetica,
-    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji';
   line-height: 1.15; /* 1. Correct the line height in all browsers. */
   -webkit-text-size-adjust: 100%; /* 2. Prevent adjustments of font size after orientation changes in iOS. */
   -moz-tab-size: 4; /* 3. Use a more readable tab size (opinionated). */
@@ -48,8 +48,6 @@ p {
 
 .container {
   width: 1158px;
-  margin-left: 12px;
-  margin-right: 12px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -71,7 +69,6 @@ p {
 
 .logo {
   margin-right: 76px;
-
 
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
