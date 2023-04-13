@@ -69,6 +69,8 @@ p {
 
 .logo {
   margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
@@ -129,7 +131,7 @@ p {
 
 .hero {
   margin-bottom: 120px;
-  padding-top: 180px;
+  padding-top: 188px;
   padding-bottom: 188px;
 
   text-align: center;
