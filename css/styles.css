@@ -139,18 +139,19 @@ img {
   margin-bottom: 120px;
   padding-top: 188px;
   padding-bottom: 188px;
-
-  text-align: center;
   background-color: var(--navy-blue);
 }
 
 .hero-title {
   margin-bottom: 48px;
-
+  max-width: 496px;
+  margin: auto;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--white);
+  text-align: center;
+
 }
 /* Buttons */
 .button {
@@ -166,9 +167,13 @@ img {
   cursor: pointer;
 }
 .button.btn-primary {
+  display: block;
   padding: 16px 32px;
   height: 56px;
   min-width: 169px;
+  border: none;
+  margin: auto;
+  
 
   color: var(--white);
   background-color: var(--iris);
