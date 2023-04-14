@@ -17,11 +17,6 @@ html {
   box-sizing: border-box;
   margin: 0;
 }
-/* *,
-*::before,
-*::after {
-  box-sizing: inherit;
-} */
 
 body {
   font-family: Roboto, sans-serif;
@@ -55,6 +50,7 @@ img {
   padding-right: 15px;
   margin-left: 12px;
   margin-right: 12px;
+  outline: 2px solid red;
 }
 
 .header {
@@ -202,9 +198,12 @@ img {
 /* Section*/
 .advantages,
 .examples {
-  margin-bottom: 120px;
+  /* margin-bottom: 120px; */
 }
+.section.advantages {
+  padding: 120px 0px;
 
+}
 .section-title {
   color: var(--navy-blue);
   font-size: 36px;
@@ -230,11 +229,19 @@ img {
 
   margin-bottom: 8px;
 }
-
-.advantages-item:not(:last-child) {
+.advantages-item {
   margin-right: 24px;
+  /* width: calc((100% - 72) / 4); */
+  flex-basis: calc((100% - 72px) / 4)
+}
+.advantages-item:last-child {
+  margin-right: 0px;
 }
 
+.examples.container {
+  padding-bottom: 120px;
+
+}
 .example-list {
   display: flex;
 }
