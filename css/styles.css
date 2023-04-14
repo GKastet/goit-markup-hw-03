@@ -57,8 +57,8 @@ img {
 .nav-header {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 .nav-page {
   display: flex;
@@ -332,7 +332,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.section.filter {
+.filter {
   padding-top: 96px;
   padding-bottom: 120px;
 }
