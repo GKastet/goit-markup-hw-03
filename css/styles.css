@@ -47,7 +47,7 @@ img {
 .container {
   width: 1158px;
   padding-left: 15px;
-  padding-right: 15px; 
+  padding-right: 15px;
 }
 
 .header {
@@ -63,7 +63,6 @@ img {
 .nav-page {
   display: flex;
   align-items: center;
-  
 }
 
 .logo {
@@ -143,7 +142,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--white);
   text-align: center;
-
 }
 /* Buttons */
 .button {
@@ -165,7 +163,6 @@ img {
   min-width: 169px;
   border: none;
   margin: auto;
-  
 
   color: var(--white);
   background-color: var(--iris);
@@ -189,6 +186,7 @@ img {
 .btn-secondary:focus {
   color: var(--white);
   background-color: var(--ocean);
+  border: 1px solid transparent
 }
 
 /* Section*/
@@ -198,7 +196,6 @@ img {
 }
 .section.advantages {
   padding: 120px 0px;
-
 }
 .section-title {
   color: var(--navy-blue);
@@ -217,18 +214,20 @@ img {
 .advantages-list .title,
 .team-list .title,
 .filter-list .title {
+  margin-bottom: 8px;
+
   color: var(--navy-blue);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 
-  margin-bottom: 8px;
+  
 }
 .advantages-item {
   margin-right: 24px;
   /* width: calc((100% - 72) / 4); */
-  flex-basis: calc((100% - 72px) / 4)
+  flex-basis: calc((100% - 72px) / 4);
 }
 .advantages-item:last-child {
   margin-right: 0px;
@@ -236,7 +235,6 @@ img {
 
 .examples.container {
   padding-bottom: 120px;
-
 }
 .example-list {
   display: flex;
@@ -289,13 +287,17 @@ img {
 
 .button-filter {
   /* padding-top: 96px; */
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 
   display: flex;
   justify-content: center;
 }
-.button-filter .btn-item + .btn-item {
-  margin-left: 24px;
+.btn-item {
+  margin-right: 24px;
+}
+
+.btn-item:last-child {
+  margin-right: 0px;
 }
 
 .filter-list {
@@ -318,6 +320,11 @@ img {
 .filter-item:nth-last-child(-n + 3) {
   margin-bottom: 0px;
 }
+.filter-app {
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower);
+  border-top:none; 
+}
 
 .filter-list .type {
   margin-bottom: 0px;
@@ -339,7 +346,7 @@ img {
   background-color: var(--navy-blue);
   padding: 100px 0;
 }
-.footer.logo {
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
