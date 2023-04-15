@@ -59,8 +59,8 @@ img {
 .nav-header {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 .nav-page {
   display: flex;
