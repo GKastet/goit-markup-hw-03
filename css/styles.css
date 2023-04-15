@@ -54,6 +54,8 @@ img {
 
 .header {
   border-bottom: 1px solid var(--cornflower);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-header {
@@ -195,10 +197,11 @@ img {
 /* Section*/
 .advantages,
 .examples {
-  /* margin-bottom: 120px; */
+  padding-bottom: 120px;
 }
 .section.advantages {
   padding: 120px 0px;
+  padding-bottom: ;
 }
 .section-title {
   color: var(--navy-blue);
